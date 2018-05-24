@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Validatoria_Tests' do
+  pod 'Validatoria', :path => '../'
+  
+  
+end
