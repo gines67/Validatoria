@@ -1,6 +1,6 @@
 # Validatoria
 
-[![CI Status](https://img.shields.io/travis/gines6767@gmail.com/Validatoria.svg?style=flat)](https://travis-ci.org/gines6767@gmail.com/Validatoria)
+[![CI Status](https://img.shields.io/travis/gines67/Validatoria.svg?style=flat)](https://travis-ci.org/gines67/Validatoria)
 [![Version](https://img.shields.io/cocoapods/v/Validatoria.svg?style=flat)](https://cocoapods.org/pods/Validatoria)
 [![License](https://img.shields.io/cocoapods/l/Validatoria.svg?style=flat)](https://cocoapods.org/pods/Validatoria)
 [![Platform](https://img.shields.io/cocoapods/p/Validatoria.svg?style=flat)](https://cocoapods.org/pods/Validatoria)
