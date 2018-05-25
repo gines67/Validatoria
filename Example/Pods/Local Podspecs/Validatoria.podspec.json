@@ -1,0 +1,22 @@
+{
+  "name": "Validatoria",
+  "version": "0.1.0",
+  "summary": "A short description of Validatoria.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gines6767@gmail.com/Validatoria",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gines6767@gmail.com": "gines67@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/gines6767@gmail.com/Validatoria.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Validatoria/Classes/**/*"
+}

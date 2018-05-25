@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3D3BC535237A8E2961E7FAFD6AE535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2773A0728FF41E3E8810EB8AC8514E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3889A8FDB61321BE9C727B0F55EDDC51 /* Validatoria-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4A54891D78A28421EA1D53C99C1C7 /* Validatoria-dummy.m */; };
+		8ADD4A67EE9B5AE8C65963F446C171D5 /* Pods-Validatoria_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D47E5687FBC1C021F05F83DAD386F4 /* Pods-Validatoria_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E19A02046CEC304F6411ADFA886A1F45 /* Pods-Validatoria_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2069D902CE2E1609E4A8617D7759326D /* Pods-Validatoria_Tests-dummy.m */; };
+		E2F167E620B6FB5D00D76B95 /* NumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167DE20B6FB5C00D76B95 /* NumberValidator.swift */; };
+		E2F167E720B6FB5D00D76B95 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167DF20B6FB5D00D76B95 /* Validator.swift */; };
+		E2F167E820B6FB5D00D76B95 /* CompositValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E020B6FB5D00D76B95 /* CompositValidator.swift */; };
+		E2F167E920B6FB5D00D76B95 /* TemplateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E120B6FB5D00D76B95 /* TemplateValidator.swift */; };
+		E2F167EA20B6FB5D00D76B95 /* LowercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E220B6FB5D00D76B95 /* LowercaseValidator.swift */; };
+		E2F167EB20B6FB5D00D76B95 /* LengthStringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E320B6FB5D00D76B95 /* LengthStringValidator.swift */; };
+		E2F167EC20B6FB5D00D76B95 /* UppercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E420B6FB5D00D76B95 /* UppercaseValidator.swift */; };
+		E2F167ED20B6FB5D00D76B95 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E520B6FB5D00D76B95 /* EmailValidator.swift */; };
+		EAD2CF9A7BE244D18AC838C9934262AA /* Validatoria-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8F1E537038CE82173D96AA21B522B5 /* Validatoria-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99BB9C572C9298E1039B8642D30320C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D33A874E0F3D1CC32CCB2E1FE7777B;
+			remoteInfo = Validatoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC45CA1EE875F89D7C843F99134ACD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2069D902CE2E1609E4A8617D7759326D /* Pods-Validatoria_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Validatoria_Tests-dummy.m"; sourceTree = "<group>"; };
+		2BB6A9A7058A0E1361396032DA366DD0 /* Pods-Validatoria_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Validatoria_Tests.modulemap"; sourceTree = "<group>"; };
+		3B25AAC67762C4EFA94EC3BB34190A99 /* Pods-Validatoria_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Validatoria_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4061D0336E1367DD735F2C30BA54BC6C /* Pods-Validatoria_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Validatoria_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45B1DDB48A6382238E58E7A94FEBF4C2 /* Validatoria.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Validatoria.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46D47E5687FBC1C021F05F83DAD386F4 /* Pods-Validatoria_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Validatoria_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4AC4A54891D78A28421EA1D53C99C1C7 /* Validatoria-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Validatoria-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EDAF1AF926753EAB49D92BB7CFBD621 /* Validatoria.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Validatoria.modulemap; sourceTree = "<group>"; };
+		6E63280546C9BD52DA077DC49853127A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8059C07EA2BCEF82E67379AEDF2FE573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8662EC819B8F245D8F8B4D4C195EC3A9 /* Validatoria.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Validatoria.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A56F3EEE606A4A17B0A430C1E2E90466 /* Pods-Validatoria_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Validatoria_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A6C0F875FEC84C668173D8337D585CE0 /* Validatoria-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validatoria-prefix.pch"; sourceTree = "<group>"; };
+		A9176C3C34D3AF4B2362982BD2E5AAD6 /* Pods-Validatoria_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Validatoria_Tests-resources.sh"; sourceTree = "<group>"; };
+		B08DD5782C531338A08972269C5F9FE2 /* Validatoria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validatoria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8F1E537038CE82173D96AA21B522B5 /* Validatoria-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validatoria-umbrella.h"; sourceTree = "<group>"; };
+		C0C543EEF22CA95E4200CD0B1908C867 /* Pods-Validatoria_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Validatoria_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D412516C03194005B232EBBAE2B4F426 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6240B2081408D89B21DAFD837672E99 /* Pods_Validatoria_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Validatoria_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F167DE20B6FB5C00D76B95 /* NumberValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberValidator.swift; sourceTree = "<group>"; };
+		E2F167DF20B6FB5D00D76B95 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		E2F167E020B6FB5D00D76B95 /* CompositValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositValidator.swift; sourceTree = "<group>"; };
+		E2F167E120B6FB5D00D76B95 /* TemplateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateValidator.swift; sourceTree = "<group>"; };
+		E2F167E220B6FB5D00D76B95 /* LowercaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowercaseValidator.swift; sourceTree = "<group>"; };
+		E2F167E320B6FB5D00D76B95 /* LengthStringValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthStringValidator.swift; sourceTree = "<group>"; };
+		E2F167E420B6FB5D00D76B95 /* UppercaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UppercaseValidator.swift; sourceTree = "<group>"; };
+		E2F167E520B6FB5D00D76B95 /* EmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		EDE89F69FC2F5B44EC43202ACF7E45CC /* Pods-Validatoria_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Validatoria_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30845EC770613018CB40C6CAD1000716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2773A0728FF41E3E8810EB8AC8514E3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C02E4537DEFA2F7FF35AEF6137D99A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3D3BC535237A8E2961E7FAFD6AE535 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A772B34FC8BF0A27B253274EC2C08D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D412516C03194005B232EBBAE2B4F426 /* LICENSE */,
+				8059C07EA2BCEF82E67379AEDF2FE573 /* README.md */,
+				45B1DDB48A6382238E58E7A94FEBF4C2 /* Validatoria.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3D64FE6530E3F3C5770A02EB689701E0 /* Pods-Validatoria_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E63280546C9BD52DA077DC49853127A /* Info.plist */,
+				2BB6A9A7058A0E1361396032DA366DD0 /* Pods-Validatoria_Tests.modulemap */,
+				EDE89F69FC2F5B44EC43202ACF7E45CC /* Pods-Validatoria_Tests-acknowledgements.markdown */,
+				C0C543EEF22CA95E4200CD0B1908C867 /* Pods-Validatoria_Tests-acknowledgements.plist */,
+				2069D902CE2E1609E4A8617D7759326D /* Pods-Validatoria_Tests-dummy.m */,
+				A56F3EEE606A4A17B0A430C1E2E90466 /* Pods-Validatoria_Tests-frameworks.sh */,
+				A9176C3C34D3AF4B2362982BD2E5AAD6 /* Pods-Validatoria_Tests-resources.sh */,
+				46D47E5687FBC1C021F05F83DAD386F4 /* Pods-Validatoria_Tests-umbrella.h */,
+				4061D0336E1367DD735F2C30BA54BC6C /* Pods-Validatoria_Tests.debug.xcconfig */,
+				3B25AAC67762C4EFA94EC3BB34190A99 /* Pods-Validatoria_Tests.release.xcconfig */,
+			);
+			name = "Pods-Validatoria_Tests";
+			path = "Target Support Files/Pods-Validatoria_Tests";
+			sourceTree = "<group>";
+		};
+		58396003B7FE70183F3E1FF7297D6D1A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D64FE6530E3F3C5770A02EB689701E0 /* Pods-Validatoria_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CA381084A20CCDF3FE71E9798928D93 /* Validatoria */ = {
+			isa = PBXGroup;
+			children = (
+				E28B884420B7ED29003DB864 /* TextFieldDecorators */,
+				E2F167FF20B6FE8000D76B95 /* Validators */,
+				1A772B34FC8BF0A27B253274EC2C08D9 /* Pod */,
+				CCC3ACE9828C73459F05C191F59798AE /* Support Files */,
+			);
+			name = Validatoria;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				82C68580A44316F416146F364679AB24 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DD26FFFC7DD66ACC48763181F65CFC9B /* Products */,
+				58396003B7FE70183F3E1FF7297D6D1A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82C68580A44316F416146F364679AB24 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CA381084A20CCDF3FE71E9798928D93 /* Validatoria */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC3ACE9828C73459F05C191F59798AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AC45CA1EE875F89D7C843F99134ACD1 /* Info.plist */,
+				5EDAF1AF926753EAB49D92BB7CFBD621 /* Validatoria.modulemap */,
+				8662EC819B8F245D8F8B4D4C195EC3A9 /* Validatoria.xcconfig */,
+				4AC4A54891D78A28421EA1D53C99C1C7 /* Validatoria-dummy.m */,
+				A6C0F875FEC84C668173D8337D585CE0 /* Validatoria-prefix.pch */,
+				BD8F1E537038CE82173D96AA21B522B5 /* Validatoria-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Validatoria";
+			sourceTree = "<group>";
+		};
+		DD26FFFC7DD66ACC48763181F65CFC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6240B2081408D89B21DAFD837672E99 /* Pods_Validatoria_Tests.framework */,
+				B08DD5782C531338A08972269C5F9FE2 /* Validatoria.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28B884420B7ED29003DB864 /* TextFieldDecorators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextFieldDecorators;
+			sourceTree = "<group>";
+		};
+		E2F167FF20B6FE8000D76B95 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				E2F167E020B6FB5D00D76B95 /* CompositValidator.swift */,
+				E2F167E520B6FB5D00D76B95 /* EmailValidator.swift */,
+				E2F167E320B6FB5D00D76B95 /* LengthStringValidator.swift */,
+				E2F167E220B6FB5D00D76B95 /* LowercaseValidator.swift */,
+				E2F167DE20B6FB5C00D76B95 /* NumberValidator.swift */,
+				E2F167E120B6FB5D00D76B95 /* TemplateValidator.swift */,
+				E2F167E420B6FB5D00D76B95 /* UppercaseValidator.swift */,
+				E2F167DF20B6FB5D00D76B95 /* Validator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A59EBE65152F185DE9CAE4D552ACC8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD2CF9A7BE244D18AC838C9934262AA /* Validatoria-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F5C156E09B05BBEF5D010041C44007 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADD4A67EE9B5AE8C65963F446C171D5 /* Pods-Validatoria_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6CD7F595DAC3511CDEC4E584F0A1CBAA /* Pods-Validatoria_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7EEAFED62B0A6768E0492D714A32E /* Build configuration list for PBXNativeTarget "Pods-Validatoria_Tests" */;
+			buildPhases = (
+				36AEC20A8469993C3E64F91F5242D9B6 /* Sources */,
+				30845EC770613018CB40C6CAD1000716 /* Frameworks */,
+				E0F5C156E09B05BBEF5D010041C44007 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23485CD0517C40A406F52EEA8965C78 /* PBXTargetDependency */,
+			);
+			name = "Pods-Validatoria_Tests";
+			productName = "Pods-Validatoria_Tests";
+			productReference = D6240B2081408D89B21DAFD837672E99 /* Pods_Validatoria_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79D33A874E0F3D1CC32CCB2E1FE7777B /* Validatoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB0BEF82FAADB9142770813474CF44C /* Build configuration list for PBXNativeTarget "Validatoria" */;
+			buildPhases = (
+				C6AA4D62BB8C67CF2B9BC175AADECEFD /* Sources */,
+				3C02E4537DEFA2F7FF35AEF6137D99A2 /* Frameworks */,
+				5A59EBE65152F185DE9CAE4D552ACC8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Validatoria;
+			productName = Validatoria;
+			productReference = B08DD5782C531338A08972269C5F9FE2 /* Validatoria.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					79D33A874E0F3D1CC32CCB2E1FE7777B = {
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DD26FFFC7DD66ACC48763181F65CFC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD7F595DAC3511CDEC4E584F0A1CBAA /* Pods-Validatoria_Tests */,
+				79D33A874E0F3D1CC32CCB2E1FE7777B /* Validatoria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36AEC20A8469993C3E64F91F5242D9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19A02046CEC304F6411ADFA886A1F45 /* Pods-Validatoria_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA4D62BB8C67CF2B9BC175AADECEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F167EB20B6FB5D00D76B95 /* LengthStringValidator.swift in Sources */,
+				E2F167EC20B6FB5D00D76B95 /* UppercaseValidator.swift in Sources */,
+				E2F167ED20B6FB5D00D76B95 /* EmailValidator.swift in Sources */,
+				3889A8FDB61321BE9C727B0F55EDDC51 /* Validatoria-dummy.m in Sources */,
+				E2F167E720B6FB5D00D76B95 /* Validator.swift in Sources */,
+				E2F167EA20B6FB5D00D76B95 /* LowercaseValidator.swift in Sources */,
+				E2F167E820B6FB5D00D76B95 /* CompositValidator.swift in Sources */,
+				E2F167E920B6FB5D00D76B95 /* TemplateValidator.swift in Sources */,
+				E2F167E620B6FB5D00D76B95 /* NumberValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C23485CD0517C40A406F52EEA8965C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Validatoria;
+			target = 79D33A874E0F3D1CC32CCB2E1FE7777B /* Validatoria */;
+			targetProxy = C99BB9C572C9298E1039B8642D30320C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D4EE61028AD8340164BA70B2E8EAC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8662EC819B8F245D8F8B4D4C195EC3A9 /* Validatoria.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Validatoria/Validatoria-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validatoria/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Validatoria/Validatoria.modulemap";
+				PRODUCT_MODULE_NAME = Validatoria;
+				PRODUCT_NAME = Validatoria;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AFDFFF7CE55082049EB5AE86B33F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B25AAC67762C4EFA94EC3BB34190A99 /* Pods-Validatoria_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Validatoria_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Validatoria_Tests/Pods-Validatoria_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BE77CEA663FCB52629BC526892DBD5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4061D0336E1367DD735F2C30BA54BC6C /* Pods-Validatoria_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Validatoria_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Validatoria_Tests/Pods-Validatoria_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA6EC3D8259993D16AAA8AED6F22FDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8662EC819B8F245D8F8B4D4C195EC3A9 /* Validatoria.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Validatoria/Validatoria-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validatoria/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Validatoria/Validatoria.modulemap";
+				PRODUCT_MODULE_NAME = Validatoria;
+				PRODUCT_NAME = Validatoria;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7EEAFED62B0A6768E0492D714A32E /* Build configuration list for PBXNativeTarget "Pods-Validatoria_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE77CEA663FCB52629BC526892DBD5C1 /* Debug */,
+				3AFDFFF7CE55082049EB5AE86B33F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB0BEF82FAADB9142770813474CF44C /* Build configuration list for PBXNativeTarget "Validatoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4EE61028AD8340164BA70B2E8EAC41 /* Debug */,
+				CA6EC3D8259993D16AAA8AED6F22FDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
