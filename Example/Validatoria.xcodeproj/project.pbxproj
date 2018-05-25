@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		3A9EBCE4DDF57AB9106CA331 /* Pods_Validatoria_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Validatoria_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EDA30A656712A720792119 /* Pods-Validatoria_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Validatoria_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Validatoria_Tests/Pods-Validatoria_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		586F70039B47ECAF93EECA45 /* Validatoria.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Validatoria.podspec; path = ../Validatoria.podspec; sourceTree = "<group>"; };
+		586F70039B47ECAF93EECA45 /* Validatoria.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Validatoria.podspec; path = ../Validatoria.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* Validatoria_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Validatoria_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6421CFC2F846D5EEC4E2E0AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };

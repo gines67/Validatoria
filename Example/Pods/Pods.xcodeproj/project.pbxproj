@@ -12,14 +12,15 @@
 		3889A8FDB61321BE9C727B0F55EDDC51 /* Validatoria-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4A54891D78A28421EA1D53C99C1C7 /* Validatoria-dummy.m */; };
 		8ADD4A67EE9B5AE8C65963F446C171D5 /* Pods-Validatoria_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D47E5687FBC1C021F05F83DAD386F4 /* Pods-Validatoria_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E19A02046CEC304F6411ADFA886A1F45 /* Pods-Validatoria_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2069D902CE2E1609E4A8617D7759326D /* Pods-Validatoria_Tests-dummy.m */; };
-		E2F167E620B6FB5D00D76B95 /* NumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167DE20B6FB5C00D76B95 /* NumberValidator.swift */; };
-		E2F167E720B6FB5D00D76B95 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167DF20B6FB5D00D76B95 /* Validator.swift */; };
-		E2F167E820B6FB5D00D76B95 /* CompositValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E020B6FB5D00D76B95 /* CompositValidator.swift */; };
-		E2F167E920B6FB5D00D76B95 /* TemplateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E120B6FB5D00D76B95 /* TemplateValidator.swift */; };
-		E2F167EA20B6FB5D00D76B95 /* LowercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E220B6FB5D00D76B95 /* LowercaseValidator.swift */; };
-		E2F167EB20B6FB5D00D76B95 /* LengthStringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E320B6FB5D00D76B95 /* LengthStringValidator.swift */; };
-		E2F167EC20B6FB5D00D76B95 /* UppercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E420B6FB5D00D76B95 /* UppercaseValidator.swift */; };
-		E2F167ED20B6FB5D00D76B95 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F167E520B6FB5D00D76B95 /* EmailValidator.swift */; };
+		E28B885020B7F683003DB864 /* LowercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884820B7F683003DB864 /* LowercaseValidator.swift */; };
+		E28B885120B7F683003DB864 /* NumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884920B7F683003DB864 /* NumberValidator.swift */; };
+		E28B885220B7F683003DB864 /* UppercaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884A20B7F683003DB864 /* UppercaseValidator.swift */; };
+		E28B885320B7F683003DB864 /* TemplateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884B20B7F683003DB864 /* TemplateValidator.swift */; };
+		E28B885420B7F683003DB864 /* CompositValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884C20B7F683003DB864 /* CompositValidator.swift */; };
+		E28B885520B7F683003DB864 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884D20B7F683003DB864 /* EmailValidator.swift */; };
+		E28B885620B7F683003DB864 /* LengthStringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884E20B7F683003DB864 /* LengthStringValidator.swift */; };
+		E28B885720B7F683003DB864 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B884F20B7F683003DB864 /* Validator.swift */; };
+		E28B885920B7F69B003DB864 /* UITextField+Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B885820B7F69B003DB864 /* UITextField+Validator.swift */; };
 		EAD2CF9A7BE244D18AC838C9934262AA /* Validatoria-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8F1E537038CE82173D96AA21B522B5 /* Validatoria-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -56,14 +57,15 @@
 		C0C543EEF22CA95E4200CD0B1908C867 /* Pods-Validatoria_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Validatoria_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D412516C03194005B232EBBAE2B4F426 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6240B2081408D89B21DAFD837672E99 /* Pods_Validatoria_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Validatoria_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2F167DE20B6FB5C00D76B95 /* NumberValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberValidator.swift; sourceTree = "<group>"; };
-		E2F167DF20B6FB5D00D76B95 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
-		E2F167E020B6FB5D00D76B95 /* CompositValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositValidator.swift; sourceTree = "<group>"; };
-		E2F167E120B6FB5D00D76B95 /* TemplateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateValidator.swift; sourceTree = "<group>"; };
-		E2F167E220B6FB5D00D76B95 /* LowercaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowercaseValidator.swift; sourceTree = "<group>"; };
-		E2F167E320B6FB5D00D76B95 /* LengthStringValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LengthStringValidator.swift; sourceTree = "<group>"; };
-		E2F167E420B6FB5D00D76B95 /* UppercaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UppercaseValidator.swift; sourceTree = "<group>"; };
-		E2F167E520B6FB5D00D76B95 /* EmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		E28B884820B7F683003DB864 /* LowercaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LowercaseValidator.swift; path = ../Validatoria/Classes/Validators/LowercaseValidator.swift; sourceTree = "<group>"; };
+		E28B884920B7F683003DB864 /* NumberValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberValidator.swift; path = ../Validatoria/Classes/Validators/NumberValidator.swift; sourceTree = "<group>"; };
+		E28B884A20B7F683003DB864 /* UppercaseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UppercaseValidator.swift; path = ../Validatoria/Classes/Validators/UppercaseValidator.swift; sourceTree = "<group>"; };
+		E28B884B20B7F683003DB864 /* TemplateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemplateValidator.swift; path = ../Validatoria/Classes/Validators/TemplateValidator.swift; sourceTree = "<group>"; };
+		E28B884C20B7F683003DB864 /* CompositValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompositValidator.swift; path = ../Validatoria/Classes/Validators/CompositValidator.swift; sourceTree = "<group>"; };
+		E28B884D20B7F683003DB864 /* EmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmailValidator.swift; path = ../Validatoria/Classes/Validators/EmailValidator.swift; sourceTree = "<group>"; };
+		E28B884E20B7F683003DB864 /* LengthStringValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LengthStringValidator.swift; path = ../Validatoria/Classes/Validators/LengthStringValidator.swift; sourceTree = "<group>"; };
+		E28B884F20B7F683003DB864 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = ../Validatoria/Classes/Validators/Validator.swift; sourceTree = "<group>"; };
+		E28B885820B7F69B003DB864 /* UITextField+Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+Validator.swift"; path = "../Validatoria/Classes/TextFieldDecorators/UITextField+Validator.swift"; sourceTree = "<group>"; };
 		EDE89F69FC2F5B44EC43202ACF7E45CC /* Pods-Validatoria_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Validatoria_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +198,7 @@
 		E28B884420B7ED29003DB864 /* TextFieldDecorators */ = {
 			isa = PBXGroup;
 			children = (
+				E28B885820B7F69B003DB864 /* UITextField+Validator.swift */,
 			);
 			path = TextFieldDecorators;
 			sourceTree = "<group>";
@@ -203,14 +206,14 @@
 		E2F167FF20B6FE8000D76B95 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				E2F167E020B6FB5D00D76B95 /* CompositValidator.swift */,
-				E2F167E520B6FB5D00D76B95 /* EmailValidator.swift */,
-				E2F167E320B6FB5D00D76B95 /* LengthStringValidator.swift */,
-				E2F167E220B6FB5D00D76B95 /* LowercaseValidator.swift */,
-				E2F167DE20B6FB5C00D76B95 /* NumberValidator.swift */,
-				E2F167E120B6FB5D00D76B95 /* TemplateValidator.swift */,
-				E2F167E420B6FB5D00D76B95 /* UppercaseValidator.swift */,
-				E2F167DF20B6FB5D00D76B95 /* Validator.swift */,
+				E28B884C20B7F683003DB864 /* CompositValidator.swift */,
+				E28B884D20B7F683003DB864 /* EmailValidator.swift */,
+				E28B884E20B7F683003DB864 /* LengthStringValidator.swift */,
+				E28B884820B7F683003DB864 /* LowercaseValidator.swift */,
+				E28B884920B7F683003DB864 /* NumberValidator.swift */,
+				E28B884B20B7F683003DB864 /* TemplateValidator.swift */,
+				E28B884A20B7F683003DB864 /* UppercaseValidator.swift */,
+				E28B884F20B7F683003DB864 /* Validator.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -281,6 +284,9 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
+					6CD7F595DAC3511CDEC4E584F0A1CBAA = {
+						LastSwiftMigration = 0930;
+					};
 					79D33A874E0F3D1CC32CCB2E1FE7777B = {
 						LastSwiftMigration = 0930;
 					};
@@ -317,15 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F167EB20B6FB5D00D76B95 /* LengthStringValidator.swift in Sources */,
-				E2F167EC20B6FB5D00D76B95 /* UppercaseValidator.swift in Sources */,
-				E2F167ED20B6FB5D00D76B95 /* EmailValidator.swift in Sources */,
+				E28B885120B7F683003DB864 /* NumberValidator.swift in Sources */,
+				E28B885720B7F683003DB864 /* Validator.swift in Sources */,
+				E28B885520B7F683003DB864 /* EmailValidator.swift in Sources */,
+				E28B885220B7F683003DB864 /* UppercaseValidator.swift in Sources */,
+				E28B885920B7F69B003DB864 /* UITextField+Validator.swift in Sources */,
+				E28B885020B7F683003DB864 /* LowercaseValidator.swift in Sources */,
+				E28B885320B7F683003DB864 /* TemplateValidator.swift in Sources */,
+				E28B885620B7F683003DB864 /* LengthStringValidator.swift in Sources */,
+				E28B885420B7F683003DB864 /* CompositValidator.swift in Sources */,
 				3889A8FDB61321BE9C727B0F55EDDC51 /* Validatoria-dummy.m in Sources */,
-				E2F167E720B6FB5D00D76B95 /* Validator.swift in Sources */,
-				E2F167EA20B6FB5D00D76B95 /* LowercaseValidator.swift in Sources */,
-				E2F167E820B6FB5D00D76B95 /* CompositValidator.swift in Sources */,
-				E2F167E920B6FB5D00D76B95 /* TemplateValidator.swift in Sources */,
-				E2F167E620B6FB5D00D76B95 /* NumberValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +386,7 @@
 			baseConfigurationReference = 3B25AAC67762C4EFA94EC3BB34190A99 /* Pods-Validatoria_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -402,6 +410,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -535,6 +544,7 @@
 			baseConfigurationReference = 4061D0336E1367DD735F2C30BA54BC6C /* Pods-Validatoria_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -559,6 +569,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
